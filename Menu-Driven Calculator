@@ -1,0 +1,30 @@
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    return a / b
+
+choice = 1
+
+if choice == 1:
+    print(add(10, 5))
+
+elif choice == 2:
+    print(sub(10, 5))
+
+elif choice == 3:
+    print(mul(10, 5))
+
+else:
+    print(div(10, 5))
+
+Output
+
+15
+
