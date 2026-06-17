@@ -1,0 +1,8 @@
+def palindrome(num):
+    return num == int(str(num)[::-1])
+
+print(palindrome(121))
+
+Output
+
+True
