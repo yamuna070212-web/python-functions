@@ -1,0 +1,8 @@
+def frequency(text, char):
+    return text.count(char)
+
+print(frequency("programming", "g"))
+
+Output
+
+2
