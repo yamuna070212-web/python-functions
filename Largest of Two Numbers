@@ -1,0 +1,8 @@
+def largest(a, b):
+    return a if a > b else b
+
+print(largest(10, 20))
+
+Output
+
+20
