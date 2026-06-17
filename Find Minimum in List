@@ -1,0 +1,8 @@
+def find_min(numbers):
+    return min(numbers)
+
+print(find_min([10, 20, 50, 30]))
+
+Output
+
+10
