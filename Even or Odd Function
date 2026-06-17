@@ -1,0 +1,10 @@
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    return "Odd"
+
+print(check_even_odd(8))
+
+Output
+
+Even
