@@ -1,0 +1,12 @@
+def max_element(arr):
+
+    if len(arr) == 1:
+        return arr[0]
+
+    return max(arr[0], max_element(arr[1:]))
+
+print(max_element([10, 50, 20, 70]))
+
+Output
+
+70
