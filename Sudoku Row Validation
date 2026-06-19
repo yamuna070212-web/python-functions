@@ -1,0 +1,9 @@
+def valid_row(row):
+    nums = [x for x in row if x != 0]
+    return len(nums) == len(set(nums))
+
+print(valid_row([5,3,0,6,7,8,9,1,2]))
+
+Output
+
+True
