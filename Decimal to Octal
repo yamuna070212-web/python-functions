@@ -1,0 +1,8 @@
+def decimal_to_octal(n):
+    return oct(n)[2:]
+
+print(decimal_to_octal(25))
+
+Output
+
+31
